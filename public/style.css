@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #023047;
+    height: 100vh;
+}
+
+nav {
+    background-color: #FB8500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    color: #219EBC;
+    padding: 20px;
+    font-size: 30px;
+    align-items: flex-start;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav li {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #219EBC;
+}
+
+button {
+    background-color: #FFB703;
+    color: #ffffff;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.login {
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+    min-width: 250px;
+    padding: 30px 40px;
+}
+
+.login h1 {
+    color: #FFB703;
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+}
+
+.login input {
+    margin: 5px;
+    position: relative;
+    padding: 10px 70px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login ::placeholder {
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    padding: 12px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+.login-form {
+    margin: 5px;
+    position: relative;
+    padding: 10px 140px;
+    border-radius: 5px;
+}
+
+.login a {
+    margin: 5px;
+}
+
+.register {
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+    min-width: 250px;
+    padding: 30px 40px;
+}
+
+.register h1 {
+    color: #FFB703;
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+}
+
+.register input {
+    margin: 5px;
+    position: relative;
+    padding: 10px 70px;
+    border-radius: 5px;
+    border: none;
+}
+
+.register ::placeholder {
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    padding: 12px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+.register-form {
+    margin: 5px;
+    position: relative;
+    padding: 10px 140px;
+    border-radius: 5px;
+}
+
+.home {
+    width: 65%;
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 30%;
+    padding: 30px 40px;
+}
+
+.home-title {
+    width: 150%;
+}
+
+.home-button {
+    margin-left: 21%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.add-post {
+    color: #FFB703;
+    text-decoration: none;
+    position: absolute;
+    top: 18.5%;
+    left: 53%;
+}
+
+.search {
+    position: absolute;
+    right: 10px;
+    top: 18.5%;
+}
+
+.messageButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+
+.routines {
+    border-bottom: solid 2px #FFB703;
+    background-color: #219EBC;
+}
+
+.routineTitle {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.activityCard {
+    margin-top: 10px;
+   
+}
+
+.activityTitle {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.create-post {
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+    min-width: 250px;
+    padding: 30px 40px;
+}
+
+.create-title {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.create-description {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.create-price {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.createTitle {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+    color: #FFB703;
+
+    font-weight: 500;
+}
+
+.createPostButton {
+    position: absolute;
+    left: 25%;
+    padding: 10px 50px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.go-home {
+    position: absolute;
+    font-weight: 500;
+    margin: 10px;
+    text-decoration: none;
+    left: -85%;
+    top: -40%;
+    font-size: larger;
+}
+
+.create-post ::placeholder {
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+    padding: 18px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+.profile {
+    border-bottom: solid 2px #FFB703;
+}
+
+.postTitle {
+    margin-top: 10px;
+}
+
+.deleteButton {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.edit-button {
+    text-decoration: none;
+    position: relative;
+    left: 90px;
+    top: 35px;
+
+}
+
+.edit-post {
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+    min-width: 250px;
+    padding: 30px 40px;
+
+}
+
+.editTitle {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+    color: #FFB703;
+    font-weight: 500;
+}
+
+.edit-title {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.edit-description {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.edit-price {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.willDeliver {
+    position: relative;
+    padding: 10px 100px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.edit-title::placeholder {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    padding: 18px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
